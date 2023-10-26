@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+	<html lang="pl-PL">
+		<html>
+	<head>
+		<meta charset="utf-8">
+		<title> </title>
+	</head>
+<body bgcolor=#d6b075>
+<h1 align="center" > formularz Podanie o Pracę </h1>
+<form enctype="text/plain" action="mailto:plmisiek8@gmail.com" subject="formularz_dane" method="Post">
+<TABLE>
+<TR ><br>
+
+	<TD width="300"> Imię <input type="Imie"> </TD>
+	<TD width="400" >Wyskształcenie <input type="text" list="wyksz">
+<datalist id="wyksz">
+<option value="Podstawowe">
+<option value="Średnie">
+<option value="Wyższe">
+</datalist></td>
+	<TD width="500"><p>Język Programowania:</p>
+	<input type="checkbox">HTML
+	<input type="checkbox">C++
+	<input type="checkbox">C#
+	<input type="checkbox">Java
+	<input type="checkbox">Python
+	
+	</TD><br>
+</TR>
+
+<TR>
+	<TD width="400"	 >Nazwisko <input type="nazwisko"><font size="1">max.32 znaki</font></TD>
+	<TD><p>Wybierz stanowisko</p> <input type="text" list="stan">
+<datalist id="stan">
+<option value="Programista">
+<option value="Informatyk">
+<option value="Serwisant">
+<option value="Grafik 3d">
+<option value="Grafik 2d">
+</TD>
+ 	<TD Width="500"><p>Wybierz Stopień zawansowania</p>
+	<input type="checkbox">Junior<br>
+	<input type="checkbox">Junior+<br>
+	<input type="checkbox">Mid<br>
+	<input type="checkbox">Senior<br></TD>
+</TR>
+<TR height="25">
+	<TD>Login <input type="nazwisko" autocomplete="off"></TD>
+	<TD><p>Wymiar pracy</p> <input type="text" list="prac">
+<datalist id="prac">
+<option value="0,25 etatu">
+<option value="0,5 etatu">
+<option value="0,75 etatu">
+<option value="1 etat">
+	
+
+	</tr>
+</TR>
+<tr>
+<td>Hasło<input type="password"></td>
+<TR height="25">
+	<TD>Podaj Dzisiejszą Datę <input type="date"></TD>
+	<TD> <button type="checked">Praca ZDALNA </button><button>Praca STACJONARNA </button> </TD>
+
+</tr>
+</tr>
+<TR height="25">
+	<TD><p>Powiedz coś o sobie:</p><textarea></textarea></TD>
+	<TD> <input type="checkbox">Zezwalam na przetwarzanie moich danych osobowych<br>
+<input type="checkbox">Oświadczam że w przypadku dostania się będę dobrym pracownikiem<br>
+<input type="checkbox">Oświadczam że w przypadku dostania się nie będę oczekiwał zapłaty</TD>
+
+</tr>
+<TR height="25">
+	<TD> </TD>
+	<TD><button type="sumbit">reset </button><button type="sumbit">wyślij </button> </TD>
+
+</tr>
+
+
+<button type="sumbit">wyślij </button>
+</form>
+</TABLE>
+
+</body>
+</html>
